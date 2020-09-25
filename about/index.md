@@ -7,6 +7,12 @@ eleventyNavigation:
   order: 3
 ---
 
-I am a person that writes stuff.
+I am a person who writes stuff and works about hybrid application.
 
-This blog template is based on [eleventy-high-performance-blog](https://www.industrialempathy.com/posts/eleventy-high-performance-blog/) which itself is based on [eleventy-base-blog](https://github.com/11ty/eleventy-base-blog).
+More detail in my post [intro](/posts/intro/).
+
+Github: [Joovo](http://github.com/joovo)
+Email: wohfacm@gmail.com
+WeChat: jokazusa
+
+This blog template is based on [eleventy-high-performance-blog](https://www.industrialempathy.com/posts/eleventy-high-performance-blog/).

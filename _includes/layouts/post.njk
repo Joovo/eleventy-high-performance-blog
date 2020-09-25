@@ -9,7 +9,8 @@ templateClass: tmpl-post
    {% set wc = content | striptags | wordcount %}
    {% set wPerMinute = wc / 240 %}
    <aside>
-     {{ wPerMinute | round }} min read.
+     <!-- {{ wPerMinute | round }} min read.  不支持中文-->
+     Less than 5 min read.
    </aside>
 {% endblock %}
 
@@ -18,11 +19,13 @@ templateClass: tmpl-post
 {% block article %}
 {{ content | safe }}
 
-<h1>🙏🙏🙏</h1>
+
+<h3>End.💖</h3>
 <p>
-  Since you've made it this far, <a href="{{ shareUrl | safe }}" on-click="share">sharing</a> this article on your favorite social media network 
-  would be highly appreciated 💖! For feedback, please 
-  <a href="https://twitter.com/{{ metadata.author.twitterHandle }}" target="_blank" rel="noopener">ping me on Twitter.</a>
+  Since you've made it this far, <a href="{{ shareUrl | safe }}" on-click="share">sharing</a> this article on your favorite social media network
+  would be highly appreciated! If any questions, plz contact me!
+  <!-- <a href="https://twitter.com/{{ metadata.author.twitterHandle }}" target="_blank" rel="noopener">ping me on Twitter.</a>
+  -->
 </p>
 
 <share-widget>
@@ -37,8 +40,8 @@ templateClass: tmpl-post
   "@type": "Article",
   "headline": "{{ title }}",
   "image": [],
-  "author": "{{ metadata.author.name }}", 
-  "genre": "{{ metadata.genre }}", 
+  "author": "{{ metadata.author.name }}",
+  "genre": "{{ metadata.genre }}",
   "publisher": {
     "@type": "Organization",
     "name": "{{ metadata.publisher.name }}",
