@@ -8,6 +8,7 @@ Based on the awesome [eleventy-base-blog](https://github.com/11ty/eleventy-base-
 
 ## Demo
 
+* [Joovo's Blog](http://joovo.xyz/)
 * [Netlify Demo](https://eleventy-high-performance-blog-sample.industrialempathy.com/)
 * [Original site this template was based on](https://www.industrialempathy.com/)
 
@@ -146,6 +147,12 @@ Generates a strong CSP for the base template.
 - …and SHOULD be committed to git.
 - `.persistimages.sh` helps with this.
 
+## What I changed
+
+I(Joovo) removed test module and add some useful blocks such as exchange links,etc.
+
 ## Disclaimer
 
 This is not an officially supported Google product, but rather [Malte's](https://twitter.com/cramforce) private best-effort open-source project.
+
+
